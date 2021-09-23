@@ -79,6 +79,7 @@ def conll_reader(input_file):
 
 
 if __name__ == "__main__":
+    print("Modification line for HW 0 COMS 4156")
     with open(sys.argv[1], 'r') as in_file:
         relations = set()
         for deps in conll_reader(in_file):
